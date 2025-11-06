@@ -38,7 +38,7 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 </figure>
 
 ## Tornilleria utilizada en el montaje de los ordenadores
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)]
+![image](https://github.com/alexlopezprofe/MyM/assets/148449360/283bb5be-9303-445b-bb28-9daf30a446db)
 
 https://hardzone.es/tutoriales/mantenimiento/tipos-tornillos-mantenimiento-pc/
 
@@ -789,6 +789,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
 
 
