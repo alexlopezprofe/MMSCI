@@ -78,6 +78,9 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
 </figure>
 
 
+<img width="530" height="530" alt="image" src="https://github.com/user-attachments/assets/833dd9e6-f389-4d14-a4ed-e0af1e58b6c8" />
+
+
 # Fuentes de alimentación.
 
 ## Instalación eléctrica
@@ -123,7 +126,7 @@ En un extremo tiene un conector macho **Schuko (tipo F)** para conectarlo a la t
 
 
 <figure>
-    <center><img src="assets/img/Unidad03/U322.png" alt="Cpnectores"/></center>
+    <center><img src="assets/img/Unidad03/U322.png" alt="Conectores"/></center>
     <center><figcaption>Diferentes tipos de conectores eléctricos</figcaption></center>
 </figure>
 <center> [https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/](https://www.worldstandards.eu/es/electricidad/tipos-de-enchufes/)</center>
@@ -789,6 +792,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
 
 
