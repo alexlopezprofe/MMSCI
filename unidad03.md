@@ -42,19 +42,16 @@ El  material  con  el que están construidas es aluminio o aleaciones de alumini
 
 ## Tipos de cajas.
 
-La clasificación se hace normalmente por su tamaño dependiendo de las placas base que soportan. Las más usuales  son: 
+La clasificación se hace normalmente por su tamaño dependiendo de las placas base que soportan. Las más usuales  son:
 
-* **Caja  SFF (Small Form Factor).**    Tamaño pequeño. Mini-ITX
 
-* **Caja de sobremesa** **(Desktop)** Usada en formato horizontal para poder ubicar el monitor encima.  Micro-ATX
-
-* **Caja  minitorre (Mini Tower).** Usada  en  formato  vertical  para  placas  Micro-ATX. Entre 32-40 cm. Podemos encontrarla como microtorre
-
-* **Semitorre (Mid Tower).**   ATX. Entre 45-55 cm
-
-* **Gran  torre (Full Tower.)** EATX. Entre 55-72cm. 
-
-* **Caja rack.** Usada para servidores industriales o para montar servidores en armarios rack (19”).
+| Tipo de caja                | Formato de placa compatible | Tamaño aproximado  | Uso típico                                  |
+| --------------------------- | --------------------------- | ------------------ | ------------------------------------------- |
+| **Full Tower**              | ATX, E-ATX, microATX        | Muy grande         | Servidores, PCs de alto rendimiento, gaming |
+| **Mid Tower**               | ATX, microATX, Mini-ITX     | Estándar           | PC doméstico o de oficina                   |
+| **Mini Tower**              | microATX, Mini-ITX          | Pequeña            | Oficinas, PCs compactos                     |
+| **Small Form Factor (SFF)** | Mini-ITX                    | Muy pequeña        | Equipos multimedia, HTPC                    |
+| **Rack o Servidor**         | ATX, E-ATX, propietaria     | Montaje horizontal | Centros de datos, servidores                |
 
 
 <figure>
@@ -790,5 +787,6 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
 
