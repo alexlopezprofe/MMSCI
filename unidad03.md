@@ -72,13 +72,14 @@ La clasificación se hace normalmente por su tamaño dependiendo de las placas b
     <center><figcaption>Comparación de tipos de cajas</figcaption></center>
 </figure>
 
+<img width="530" height="530" alt="image" src="https://github.com/user-attachments/assets/833dd9e6-f389-4d14-a4ed-e0af1e58b6c8" />
+
 <figure>
     <center><img src="assets/img/Unidad03/U310.png" alt="Cajas"/></center>
-    <center><figcaption>Resumen de tipos de cajas</figcaption></center>
 </figure>
 
 
-<img width="530" height="530" alt="image" src="https://github.com/user-attachments/assets/833dd9e6-f389-4d14-a4ed-e0af1e58b6c8" />
+
 
 
 # Fuentes de alimentación.
@@ -792,6 +793,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
 
 
