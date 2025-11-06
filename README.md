@@ -1,6 +1,6 @@
-# Montaje y Mantenimiento de Equipos
+#  Montaje y mantenimiento de sistemas y componentes informáticos
 
-Sitio web para el módulo Mantenimiento y Montaje de equipos de 1º de SMR
+Sitio web para el módulo  Montaje y mantenimiento de sistemas y componentes informáticos de 2ºFPB de Informática de Oficina
 
 [Unidad 2. ](unidad02.md)
 
