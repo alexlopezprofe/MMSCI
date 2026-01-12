@@ -436,7 +436,7 @@ El chipset de la placa base determina tres cosas principales:
 
 ### El chipset clásico
 
-En placas base de hace unos añaos atrás encontrábamos el Northbridge y el Southbridge, que eran dos elementos de la placa base que realizaban todas estas comunicaciones.
+En placas base de hace unos años atrás encontrábamos el Northbridge y el Southbridge, que eran dos elementos de la placa base que realizaban todas estas comunicaciones.
 
 - **Puente norte (**Northbridge**). Se ubica en la parte superior (norte) de la placa, de ahí su nombre. Está próximo al socket y a los zócalos de memoria. Se usa como puente de enlace entre el microprocesador, tarjeta gráfica y la memoria, es decir los componentes más rápidos del ordenador.
 - **Puente sur** (**Southbrige**). Se encuentra en la parte inferior (sur) de la placa, próximo a los slots de expansión y a las conexiones de E/S. Es el responsable de la conexión de la CPU con la controladora de discos IDE, puertos USB, FireWire, SATA, ranuras PCI, disquetera, LAN, PCI-Express 1x, etc. Es el encargado de comunicar el procesador con el resto de los periféricos.
@@ -451,7 +451,11 @@ En placas base de hace unos añaos atrás encontrábamos el Northbridge y el Sou
 
 ### Chipset actual
 
-Actualmente el chipset sólo consta de un solo chip.
+Actualmente el chipset sólo consta de un solo chip. Los componentes más rápidos son controlados directamente por el procesador
+
+[<img width="508" height="758" alt="image" src="https://github.com/user-attachments/assets/b4eb572e-74b4-457f-8bed-b7ca587d6d4c" />]https://gvaedu-my.sharepoint.com/my?viewid=30314c65%2Dff7a%2D4dea%2D97a1%2D7d8d84f6ff3b&login_hint=a%2Elopezberenguer%40edu%2Egva%2Ees&source=waffle&id=%2Fpersonal%2Fa%5Flopezberenguer%5Fedu%5Fgva%5Fes%2FDocuments%2F2025%2D2026%2F1FPB%2FUD%203%2E%20Cajas%2C%20fuentes%20y%20placas%20base%2Fmb%5Fmanual%5Fz790%2Daorus%2Dxtreme%5F1001%5Fe%5F221011%2Epdf&parent=%2Fpersonal%2Fa%5Flopezberenguer%5Fedu%5Fgva%5Fes%2FDocuments%2F2025%2D2026%2F1FPB%2FUD%203%2E%20Cajas%2C%20fuentes%20y%20placas%20base
+
+https://gvaedu-my.sharepoint.com/:b:/g/personal/a_lopezberenguer_edu_gva_es/IQBbaOIqw0jSSYZ-MoKOmEBMAUgIHk5KYsxwm6dtJNaqLBc?e=6XYLtS
 
 ### Comparación de chipset vs procesador
 
@@ -793,6 +797,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
 
 
