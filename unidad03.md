@@ -451,11 +451,11 @@ En placas base de hace unos años atrás encontrábamos el Northbridge y el Sout
 
 ### Chipset actual
 
-Actualmente el chipset sólo consta de un solo chip. Los componentes más rápidos son controlados directamente por el procesador
-#### Placa base Intel
+Actualmente el chipset sólo consta de un solo chip. Los componentes más rápidos son controlados directamente por el procesador.
+#### Placa base Intel con Chipset Z790
 [<img width="508" height="758" alt="image" src="https://github.com/user-attachments/assets/b4eb572e-74b4-457f-8bed-b7ca587d6d4c" />](https://gvaedu-my.sharepoint.com/my?viewid=30314c65%2Dff7a%2D4dea%2D97a1%2D7d8d84f6ff3b&login_hint=a%2Elopezberenguer%40edu%2Egva%2Ees&source=waffle&id=%2Fpersonal%2Fa%5Flopezberenguer%5Fedu%5Fgva%5Fes%2FDocuments%2F2025%2D2026%2F1FPB%2FUD%203%2E%20Cajas%2C%20fuentes%20y%20placas%20base%2Fmb%5Fmanual%5Fz790%2Daorus%2Dxtreme%5F1001%5Fe%5F221011%2Epdf&parent=%2Fpersonal%2Fa%5Flopezberenguer%5Fedu%5Fgva%5Fes%2FDocuments%2F2025%2D2026%2F1FPB%2FUD%203%2E%20Cajas%2C%20fuentes%20y%20placas%20base)
 
-#### Placa Base AMD
+#### Placa Base AMD TRX40
 [<img width="465" height="683" alt="image" src="https://github.com/user-attachments/assets/a75a9681-c754-4e20-81f8-89b93b8ebb09" />](https://gvaedu-my.sharepoint.com/my?viewid=30314c65%2Dff7a%2D4dea%2D97a1%2D7d8d84f6ff3b&login_hint=a%2Elopezberenguer%40edu%2Egva%2Ees&source=waffle&id=%2Fpersonal%2Fa%5Flopezberenguer%5Fedu%5Fgva%5Fes%2FDocuments%2F2025%2D2026%2F1FPB%2FUD%203%2E%20Cajas%2C%20fuentes%20y%20placas%20base%2Fmb%5Fmanual%5Ftrx40%2Daorus%2Dmaster%5F1001%5F200729%5Fe%2Epdf&parent=%2Fpersonal%2Fa%5Flopezberenguer%5Fedu%5Fgva%5Fes%2FDocuments%2F2025%2D2026%2F1FPB%2FUD%203%2E%20Cajas%2C%20fuentes%20y%20placas%20base)
 
 
@@ -800,6 +800,7 @@ _[https://www.asus.com/es/motherboards-components/motherboards/tuf-gaming/tuf-ga
 _[https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/](https://tech-fairy.com/what-is-the-meaning-of-the-different-usb-port-colors-blue-teal-blue-yellow-red-black/)_
 
 _[https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf](https://download.gigabyte.com/FileList/Manual/mb_manual_z790-aorus-xtreme_1001_e_221011.pdf)_
+
 
 
 
