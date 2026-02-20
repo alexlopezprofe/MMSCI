@@ -315,7 +315,7 @@ CMK. Corsair
 
 ![](assets/img/Unidad05/Unidad554.png)
 
-<span style="color:#58585A">HBM(High Bandwidth Memory), tipo de memoria gráfica que tiene un ancho de banda mucho mayor que GDDR6, alto coste (HBM,   _[HBM2](https://www.pccomponentes.com/amd-radeon-pro-wx-9100-16gb-gddr5-hbm2)_ style="color:#58585A">,   _[HBM2E](https://hardzone.es/tutoriales/rendimiento/memoria-hbm2e-caracteristicas-especificaciones/)_ style="color:#58585A">)
+
 
 
 # Dispositivos de almacenamiento
@@ -1056,6 +1056,7 @@ _[https://www.ticarte.com/contenido/especificaciones-tecnicas-de-la-memoria-ram]
 https://gamersnexus.net/guides/1497-ssd-architecture-1-what-is-tlc-nand-mlc-anatomy
 
 https://www.profesionalreview.com/2023/01/22/u-2-vs-u-3/
+
 
 
 
