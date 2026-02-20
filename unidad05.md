@@ -54,42 +54,6 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 
 [https://www.crucial.es/articles/about-memory/how-is-memory-made](https://www.crucial.es/articles/about-memory/how-is-memory-made)
 
-# Estructura interna
-
-* **Bank (Bancos de memoria).** Son los componentes físicos encargados de almacenar los registros de memoria. Lo forman chips de circuitos integrados(IC) que están compuestos en su interior por transistores y capacitores que forman celdas de almacenamiento lo que permite almacenar bits de información dentro de ellos. Un chip contiene varios bancos, cada banco está distribuido en filas y columnas y la intersección de estas son los bits.
-
-* **Rank (Rango de memoria).** El término rango (Rank) fue creado y definido por el JEDEC y es un conjunto de chips conectados entre sí que son accedidos por el controlador de memoria al mismo tiempo formando un bloque o área de datos. El tamaño de un rango es de 64 bits (si tiene ECC se añaden 8 bits más hasta DDR o 2x8=16 bits en DDR5)
-
-![](assets/img/Unidad05/Unidad512.png)
-
-![](assets/img/Unidad05/Unidad513.png)
-
-![](assets/img/Unidad05/Unidad514.png)
-
-![](assets/img/Unidad05/Unidad515.png)
-
-### Rank
-
-![](assets/img/Unidad05/Unidad516.png)
-
-No todas las memorias tienen el mismo número de chips ni la misma capacidad, es decir, su wide o ancho de bus no es el mismo. En las memorias DDR actuales podemos encontrar chips con un ancho de bus individual de 4, 8 o 16 bits (nomenclaturas de X4, X8 o X16). Cada Rank es un conjunto de chips que forman 64 bits (4 chips de 16 bits, 8 chips de 8 bits o 16 chips de 4 bits)
-
-## Single vs Dual vs Quad Rank 
-
-**Single Rank:** Memoria RAM con un solo bus de datos de 64 bits será determinada como Single Rank o 1R. Un módulo Single Rank tendrá una nomenclatura similar a alguna de estas → 1Rx4, 1Rx8 o 1Rx16. 
-
- **Dual Rank:** Si un módulo tiene 2 buses de datos de 64 bits. (2R) →  2Rx4, 2Rx8 o 2Rx16
-
- **Quad Rank:** Si un módulo tiene 4 buses de datos de 64 bits  . (4R) → 4Rx8 o 4Rx16
-
-> El **Rank** no da pistas claras de la capacidad del módulo de memoria, ya que los chips pueden ser de 512 MB, 1 GB, 2 GB, 4GB o incluso más. Claro que sabiendo los ranks que dispone un módulo y la capacidad, podremos calcular el bus y la capacidad individual de ellos.
-
-![](assets/img/Unidad05/Unidad517.png)
-
-![](assets/img/Unidad05/Unidad518.png)
-
-![](assets/img/Unidad05/Unidad519.png)
-
 # Comunicación memoria-procesador → IMC
 
 **IMC (Integrated Memory Controller)**.  Es el circuito digital situado en el procesador que controla el flujo de datos entre el procesador y la memoria RAM.
@@ -1394,5 +1358,6 @@ _[https://www.ticarte.com/contenido/especificaciones-tecnicas-de-la-memoria-ram]
 https://gamersnexus.net/guides/1497-ssd-architecture-1-what-is-tlc-nand-mlc-anatomy
 
 https://www.profesionalreview.com/2023/01/22/u-2-vs-u-3/
+
 
 
