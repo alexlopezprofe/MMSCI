@@ -27,7 +27,7 @@ Los fabricantes tienen que fabricar los módulos de memoria siguiendo los están
 ![](assets/img/Unidad05/Unidad55.png)
 
 
-
+ESTRU
 ## SPD. Serial Presence Detect chip
 
 **El Circuito SPD (Serial Presence Detect Chip):** Es el encargado de almacenar datos relativos al módulo de memoria RAM, como el tamaño de la memoria, el tiempo de acceso, la velocidad y el tipo de memoria. De esta forma el ordenador conocerá que memoria RAM tiene instalada de manera automática sin intervención del usuario.
@@ -385,59 +385,6 @@ El motor gira a una determinadas **RPM: revoluciones por minuto**
 
 ![](assets/img/Unidad06/Unidad0616.jpg)
 
-## Estructura física
-
-![](assets/img/Unidad06/Unidad0617.png)
-
-* **Pistas.** Son los distintos anillos concéntricos invisibles a lo largo de los cuales se graban los pulsos magnéticos.
-* **Sectores.** Las distintas partes en las que se subdivide cada pista. En el caso de los discos duros el número oscila entre los 15 y los 63 sectores. El tamaño físico de un sector es de <strong>512 bytes</strong>.
-* **Cilindros.** Es el conjunto de pistas a las que el SO puede acceder simultáneamente en cada posición de cabezas. (En el caso de un disco con dos platillos, el cilindro constará de 4 pistas). Así se accede más rápidamente al no tener que desplazar el cabezal. En ocasiones se habla de número de cilindros por cara
-* **Clúster.** Conjunto contiguo de sectores que componen la unidad más pequeña de almacenamiento de un disco.
-
-    > Los archivos se almacenan en uno o varios clústeres, dependiendo de su tamaño.
-
-    > En Windows → [Tamaño de asignación](https://www.xataka.com/basics/tamano-unidad-asignacion-disco-duro-que-cual-mejor-escoger)
-
-Tamaño de la unidad de asignación en Windows = Tamaño lógico del cluster
-
-![](assets/img/Unidad06/Unidad0618.png)
-
-[Tamaño predeterminado del tamaño de asignación en Windows](https://support.microsoft.com/es-es/topic/tama%C3%B1o-de-cl%C3%BAster-predeterminado-para-ntfs-fat-y-exfat-9772e6f1-e31a-00d7-e18f-73169155af95)
-
-## Mecanismo de lectura/escritura
-
-Los diferentes platos que forman el disco giran a una velocidad constante y no cesan mientras el disco duro está recibiendo energía. Cada cara del plato tiene asignada una de las cabezas de lectura/escritura. La cabeza se mueve desde el interior al exterior del plato. Gracias a este movimiento de las cabezas y al giro de los platos se consigue acceder a todos los sectores.
-
-Los brazos que poseen las cabezas se mueven todos al unísono hacia el interior o exterior del plato, como si fueran los dientes de un peine. Por tanto, todas las cabezas van a estar leyendo los sectores que forman el cilindro virtual. De ahí que el proceso de lectura y escritura se haga al mismo tiempo en los sectores de cada pista que forma el cilindro.
-
-Las cabezas, gracias al mismo aire que provoca el giro de los platos, flotarán sobre la superficie de ellos, siempre sin tocarla. Cualquier mínimo contacto podría dañar la superficie y dejar el disco duro inutilizable.
-
-![](assets/img/Unidad06/Unidad0619.jpg)
-
-### Geometría o direccionamiento de los HDD
-
-Hace referencia al número físico real de cabezas, cilindros, pistas y sectores. La capacidad del disco se puede calcular si se conocen estos valores. Se distingue entre:
-
-* **CHS** (Cylinder Head Sector)\*\* (cilindro cabeza sector). Con estos tres valores se puede situar un sector cualquiera del disco. → Es un método de direccionamiento obsoleto
-* **LBA (Logical Block Addressing)** (direccionamiento lógico de bloques), que consiste en dividir el disco entero en sectores y asignar a cada uno un único número. Este es el que actualmente se usa.
-
-LBA0 representa el primer sector lógico del dispositivo
-
-![](assets/img/Unidad06/Unidad0621.png)
-
-La capacidad del disco se puede calcular si se conocen estos valores que normalmente podemos encontrar en la etiqueta de los discos. 
-
-> **Recordatorio:** El tamaño físico de un sector es de 512 bytes.
-
-![](assets/img/Unidad06/Unidad0622.png)  ![](assets/img/Unidad06/Unidad0623.png)
-
-$Capacidad(CHS) = C*H*S*512B$
-
-Ejemplo CHS &rarr; $Capacidad=19.390*16*63*512B=10.007.101.440B ≈ 10GB$
-
-$Capacidad (LBA) = SectoresLBA*512B$
-
-Ejemplo LBA &rarr; $Capacidad = 3.907.029.168*512B=2.000.398.934.016B ≈ 2TB$
 
 # SSD.
 
@@ -505,35 +452,6 @@ Los electrones son almacenados en el puente flotante (Flaoting Gate), de forma q
 
 Los transistores que componen la memoria almacenan la información en  celdas  en las que se almacenan datos en forma de voltajes. Dichas celdas forman matrices o bloques de las que a cada fila se le conoce como  página ;
 
-![](assets/img/Unidad06/Unidad0635.png)
-
-**¿En cada celda se almacena un bit?**
-
-## Chips de memoria
-
-* **NAND SLC (Single Level  Cell)** - *Ventaja: Mayor resistencia - Desventaja: Cara y de baja capacidad*
-
-La NAND SLC almacena 1 bit de información por celda. La celda guarda un 0 o un 1 y, en consecuencia, los datos pueden escribirse y recuperarse más rápido. SLC ofrece el mejor rendimiento y la mayor resistencia con 100.000 ciclos de P/E ( *[Ciclo de programación de borrado](https://uruguayoc.wordpress.com/2018/02/23/que-es-un-p-e-cycle-o-ciclo-de-programacion-borrado-de-una-celda-de-memoria-nand-flash/)* ) por lo cual durará más que otros tipos de NAND. Sin embargo, por su baja densidad el SLC es el tipo de NAND más caro y, por consiguiente, no suele utilizarse en productos de consumo. Normalmente se emplea en servidores y otras aplicaciones industriales que requieren rapidez y durabilidad.
-
-* **NAND MLC (Multi Level  Cell)** - *Ventaja: Más barato que SLC - Desventaja: Más lento y menos resistente que SLC*
-
-La NAND MLD almacena 2 bits por celda (00, 01, 10 y 11), lo cual se traduce en poder almacenar el doble de información que un SLC en el mismo espacio. Debido a esto MLC tiene una mayor densidad de datos que SLC y, por consiguiente, puede producirse con mayores capacidades. MLC se caracteriza por una buena combinación de precio, rendimiento y resistencia. No obstante, MLC es más sensible a errores de datos, con 10.000 ciclos de P/E por consiguiente, su resistencia es inferior a SLC. Normalmente, MLC se utiliza en productos de consumo en los que la resistencia es menos importante.
-
-* **NAND TLC** (Triple Level  Cell) - *Ventaja: Más barata y mayor capacidad - Desventaja: Baja resistencia*
-
-La NAND TLC (celda de triple nivel) guarda 3 bits por celda, es decir, hasta 8 estados diferentes. Al agregarse más bits por celda, el costo se reduce y la capacidad se incrementa. No obstante, esto tiene efectos negativos en el rendimiento y en la resistencia, con solamente 3.000 ciclos de P/E. Muchos productos de consumo emplean TLC, dado que es la opción más barata.
-
-* **NAND QLC**
-
-Cada celda almacena 4 bits, lo que significa 16 estados de voltaje.
-
-![](assets/img/Unidad06/Unidad0636.png)
-
-https://www.profesionalreview.com/2024/01/30/samsung-memorias-nand-qlc-280-capas/
-
-* **NAND 3D**
-
-Las celdas se apilan también verticalmente (3D) y no solo a lo largo y ancho (2D). Esto permite hacer las celdas más grandes y, por lo tanto, mejor aisladas, minimizando los defectos de las memorias TLC considerablemente, y acercándolas a las MLC en durabilidad. La mayor densidad de memoria posibilita mayores capacidades de almacenamiento sin un enorme incremento de precio. Por otra parte, NAND 3D se caracteriza por su mayor resistencia y menor consumo eléctrico.
 
 ![](assets/img/Unidad06/Unidad0637.png)
 
@@ -937,12 +855,6 @@ Los discos compactos (CD), discos versátiles digitales (DVD) y discos Blu-ray (
 * Actualmente en desuso al menos en los equipos microinformáticos
 * Conexiones: IDE-SATA o externos
 * Puede albergar 650 (74 minutos de música) o 700 MB de datos (80 minutos de música).
-* Existen los siguientes formatos:
-    * CD-ROM (CD Read Only Memory)
-    * CD-DA (Compact Disk Digital Audio)
-    * CD-R (CD Recordable)
-    * CD-RW (CD Rewritable)
-* Un CD de audio se reproduce a una velocidad tal que se leen 150 **[KB](https://es.wikipedia.org/wiki/Kilobyte)** por segundo. Esta velocidad base se usa como referencia para identificar otros lectores como los de <strong>[ordenador](https://es.wikipedia.org/wiki/Computadora_electr%C3%B3nica)</strong>, de modo que si un lector indica 24x, significa que puede llegar a leer hasta 24 x 150 KB/S = 3.600 KB/<strong>[s](https://es.wikipedia.org/wiki/Segundo)</strong>
 
 ![](assets/img/Unidad06/Unidad0696.png)
 
@@ -1010,10 +922,7 @@ La tecnología Blu-Ray (https://us.blu-raydisc.com/) hace uso de un rayo láser 
 ![image](https://github.com/alexlopezprofe/MyM/assets/148449360/86731e2a-f6bd-4531-83fd-d727069c2beb)
 
 * Los usos principales del Blu-ray son la grabación y, la distribución del vídeo de alta definición, el almacenamiento de datos y la gestión de activos digitales. Por otro lado, uno de los usos más recurrentes son los videojuegos
-* Existen los siguientes formatos:
-    * BD-ROM
-    * BD-R (recordable)
-    * BD-RE (rewritable)
+
 * La velocidad de transferencia va a venir expresada por un número seguido de una “X”. En este caso la “X” se refiere a una velocidad de 4,5MB/s. Actualmente existen unidades lectoras de BD con una velocidad de 12x.
 * Pueden leer y escribir también CD y DVD
 
@@ -1066,130 +975,6 @@ La grabación y lectura se efectúan de forma secuencial, que significa que para
  <img src="http://img.youtube.com/vi/CVN93H6EuAU/mqdefault.jpg" alt="Watch the video" width="240" height="180" border="10" />
 </a>
 
-
-# Estructura lógica de los discos
-
-La estructura de partición . Se encarga de definir cómo se organiza la información en el disco duro. Independientemente del hardware o del sistema operativo, todas las computadoras se inician utilizando MBR (BIOS) o GPT (UEFI) .
-
-Espacio particionado . Es el espacio del disco que ha sido asignado a alguna partición. Una partición es una división del disco duro, de forma que el sistema operativo la considera como si fuera una unidad totalmente independiente. Algunos usuarios prefieren tener particiones independientes para los datos personales, los programas y los archivos del sistema operativo.
-
-Espacio sin particionar. Es espacio no accesible del disco ya que todavía no ha sido asignado a ninguna partición y está sin formatear.
-
-## MBR (Master Boot Record)
-
-* En discos duros que tienen tabla de particiones con el esquema MBR, cuando se crean las particiones, se graba dicha información en el sector de arranque del disco (MBR). Básicamente, el MBR es un tipo especial de sector de arranque que se encuentra en el comienzo de los dispositivos de almacenamiento de datos particionados, como un disco duro fijo o una unidad de almacenamiento externa, y que contiene una tabla de particiones que indica el lugar del disco donde se encuentran las particiones. Normalmente, en dicha tabla se guarda información sobre:
-    * el tipo de partición,
-    * el tamaño de la partición (se indica dónde empieza y dónde acaba cada partición),
-    * si es o no la partición activa (que es la que está configurada para arrancar).
-* De esta forma, cuando arranca un ordenador la BIOS intenta localizar el MBR donde identifica la partición definida como activa y se inicia el proceso de arranque. Dicho de otra forma, el MBR apunta a la partición activa y el equipo comenzará a cargar el sistema operativo almacenado en esa partición activa o un menú de arranque que permita elegir el sistema operativo (si tiene varios instalados) a arrancar.
-
-![](assets/img/Unidad06/Unidad06124.png)
-
-* Tamaño de 512 bytes
-* Consta de tres partes
-    * Master Boot Code o cargador de arranque (446 bytes). Contiene códigos y datos que la BIOS necesita para iniciar la carga del sistema operativo (SO).
-    * Tabla de particiones (64 Bytes). Posee información sobre las distribuciones del disco duro. Información de hasta 4 particiones de 16 bytes cada una.
-    * Firma (2 bytes) → 0x5AA. Los sistemas operativos utilizan la firma de disco para identificar y diferenciar diferentes dispositivos de almacenamiento de datos y unidades de disco duro en la computadora para el acceso a los datos.
-
-![](assets/img/Unidad06/Unidad06125.png)
-
-![](assets/img/Unidad06/Unidad06126.png)
-
-![](assets/img/Unidad06/Unidad06127.png)
-
-## GPT (GUID Partition Table)
-
-** GPT (GUID Partition Table)** es un nuevo estándar para colocar tablas de particiones en medios de almacenamiento. Forma parte de la (UEFI).
-
-GPT se localiza al comienzo del disco duro ( *[Primary GUID](https://es.wikipedia.org/wiki/Tabla_de_particiones_GUID)* ), al igual que el MBR, pero no en el primero, sino en el segundo sector. El primer sector todavía está reservado para MBR (Protective MBR) por motivos de seguridad y para conservar la compatibilidad con sistemas más antiguos.
-
-Los datos críticos para el funcionamiento de la plataforma se almacenan en particiones en lugar de hacerlo en sectores ocultos o no particionados (como en el caso de MBR). Además, los discos GPT incluyen tablas de partición principales redundantes (Primary GUID) y de copia de seguridad (Backup GUID) a fin de mejorar la integridad de la estructura de datos de la partición.
-
-![](assets/img/Unidad06/Unidad06128.png)
-
-![](assets/img/Unidad06/Unidad06129.png)
-
-MBR &rarr; BIOS // GPT &rarr; UEFI
-
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/a87824f1-d580-4b4d-9680-04bb863b2291)
-
-![](assets/img/Unidad06/Unidad06130.png)
-
-> ¿Qué pasa si se corrompe MBR?
-
-> ¿Qué pasa si se corrompe GPT?
-
-![](assets/img/Unidad06/Unidad06131.png)
-
-![](assets/img/Unidad06/Unidad06132.png)
-
-## Tipos de particiones
-
-### Partición primaria.
-
-Puede ser reconocida como una partición de arranque y puede contener un sistema operativo que realice el arranque del equipo. Una de las particiones primarias se llama la partición activa y es la de arranque. El ordenador busca en esa partición activa el arranque del sistema. Cuando hay varios sistemas operativos instalados la partición activa tiene un pequeño programa llamado gestor de arranque que presenta un pequeño menú que permite elegir qué sistema operativo se arranca. Los sistemas operativos detectarán las particiones primarias y les asignará una unidad. Límite de 4 en MBR y 128 en GPT.
-
-![](assets/img/Unidad06/Unidad06133.png)
-
-![](assets/img/Unidad06/Unidad06134.png)
-
-![](assets/img/Unidad06/Unidad06135.png)
-
-### Partición extendida.
-
-También conocida como partición secundaria, sirve para contener múltiples unidades lógicas en su interior. Fue ideada para romper la limitación de 4 particiones primarias en un solo disco físico por tanto sólo se utiliza en MBR. Solo puede existir una partición de este tipo por disco, y solo sirve para contener particiones lógicas. Por lo tanto, es el único tipo de partición que style="color:#333333"> *no* style="color:#333333"> soporta un sistema de archivos directamente. No se puede instalar un sistema operativo en ella. style="color:#333333"> *Solo aplicable a MBR.*
-
-![](assets/img/Unidad06/Unidad06136.png)
-
-Disco duro con tres particiones primarias y una extendida.
-
-### Partición lógica.
-
-Ocupa una porción de la partición extendida o la totalidad de la misma, y se puede formatear con un sistema de archivos diferente (FAT32, NTFS, ext3, ext4, etc.) y se le asignan una unidad, así el sistema operativo reconoce las particiones lógicas o su sistema de archivos. **Solo aplicable a MBR.**
-
-![](assets/img/Unidad06/Unidad06137.png)
-
-Disco duro MBR con tres particiones primarias y una extendida con cuatro lógicas
-
-![](assets/img/Unidad06/Unidad06138.png)
-
-**Disk Management - Administrador de discos**
-
-![](assets/img/Unidad06/Unidad06139.png)
-
-# Sistema de archivos
-
-El sistema de archivos o File System es un método para el almacenamiento y organización de archivos y los datos que estos contienen, para hacer más fácil la tarea encontrarlos y acceder a ellos.
-
-Para ello, el sistema operativo utiliza las famosas “carpetas” o “directorios” con el fin de organizar todas las rutas y localizar la información contenida en el disco duro.
-
-La estructura de directorios suele ser jerárquica, ramificada o en árbol invertido.
-
-![](assets/img/Unidad06/Unidad06140.png)
-
-Los principales tipos sistemas de archivos que encontramos son los siguientes:
-
-* NTFS (New Technology File System).
-* HPFS (High Performance File System).
-* EXT (Extended file System).
-* HFS+ (Hierarchical File System).
-* APFS (Apple File System).
-* FAT (File Allocation Table).
-* exFAT (Extended File Allocation)
-* FAT32.
-* ReFS
-
-Para saber cuál de estos tipos debemos elegir debemos saber el sistema operativo que estamos usando o usaremos Windows, Linux o MacOS. Esto es importante porque hay algunos sistemas de ficheros que no son compatibles con algunos sistemas operativos:
-
-* Windows: NTFS, FAT32 y exFAT
-* Linux: EXT4, NTFS, exFAT y FAT32
-* MacOS: APFS, HFS, HFS EXT4 y NTFS con limitaciones.
-
-![](assets/img/Unidad06/Unidad06141.png)
-
-![](assets/img/Unidad06/Unidad06142.png)
-
-![](assets/img/Unidad06/Unidad06143.png)
 
 # Comandos disco duro
 
@@ -1271,6 +1056,7 @@ _[https://www.ticarte.com/contenido/especificaciones-tecnicas-de-la-memoria-ram]
 https://gamersnexus.net/guides/1497-ssd-architecture-1-what-is-tlc-nand-mlc-anatomy
 
 https://www.profesionalreview.com/2023/01/22/u-2-vs-u-3/
+
 
 
 
