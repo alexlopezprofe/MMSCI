@@ -8,7 +8,7 @@ Sitio web para el módulo  Montaje y Mantenimiento de Sistemas y Componentes Inf
 
 [Unidad 4. Procesador](unidad04.md) 
 
-[Unidad 5. Memoria RAM](unidad05.md) 
+[Unidad 5. Memorias RAM y dispositivos de almacenamiento](unidad05.md) 
 
 [Unidad 6. Dispositivos de almacenamiento](unidad06.md)
 
