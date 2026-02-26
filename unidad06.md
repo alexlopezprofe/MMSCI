@@ -39,6 +39,8 @@ Así como las CPU, están diseñados con pocos núcleos pero altas frecuencias d
 * Los núcleos en chips AMD se denominan **Stream Processors**
 * Los núcleos en chips NVIDIA se denominan **CUDA Cores**
 
+![alt text](image-6.png)
+
 ![](assets/img/Unidad07/u74.png) ![](assets/img/Unidad07/u75.png)
   
 **Velocidad o frecuencia base de reloj**. Indica la velocidad a la que operan los núcleos de la tarjeta gráfica. Las frecuencias de las tarjetas gráficas son mucho menores que las de los procesadores.
@@ -105,7 +107,7 @@ El ancho de banda de la memoria es la cantidad de datos a los que la GPU puede a
 
 $\text{BW vram (bytes)} = \text{Ancho de bus(bits)} * \text{Frecuencia(Mhz)} / 8$
 
-#\text{BW vram (bytes)}= \text{Ancho de bus(bits)} * \text{Velocidad de la memoria(Gbps)} / 8$
+$\text{BW vram (bytes)}= \text{Ancho de bus(bits)} * \text{Velocidad de la memoria(Gbps)} / 8$
 
 
 * Ejemplo: Una [FX 5900XT](https://technical.city/es/video/GeForce-FX-5900-XT), cuya velocidad de memoria es de 700MHz y cuyo bus de memoria es de 256bits
@@ -181,7 +183,9 @@ Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir
 [Power Consumption: TDP, TBP and TGP for Nvidia and AMD](https://www.igorslab.de/en/performance-tdp-tbp-and-tgp-at-nvidia-and-amd-graphics-cards-demystified-and-calculated-igorslab/)
 
 
-#### Ejemplo especificaciones tarjeta
+👉 **Ejemplo especificaciones tarjeta** 
+
+Los fabricantes nos darán las siguientes especificaciones
 
 ![](assets/img/Unidad07/u731.png)
 
@@ -200,21 +204,26 @@ Acrónimo del inglés **pic**ture **el**ement, es la unidad más pequeña que co
 
 
 ## Resolución.
-Es la cantidad total de píxeles que componen una imagen o pantalla.  
-Se expresa como **ancho × alto**.
-
-![](assets/img/Unidad07/u733.png)
-
-![](assets/img/Unidad07/u734.png)
+Es la cantidad total de píxeles que componen una imagen o pantalla.   Se expresa como **ancho × alto**.
 
 **Ejemplo:**
 - **1920 × 1080** (Full HD) significa que la imagen tiene 1,920 píxeles de ancho y 1,080 de alto.
 
 👉 Cuantos más píxeles tenga una imagen, mayor será el nivel de detalle.
 
+![alt text](image-5.png)
+
+> Selección de resolución es un ordenador
+![](assets/img/Unidad07/u733.png)
+
+> Tabla de resoluciones
+![](assets/img/Unidad07/u734.png)
+
+
+
 ![alt text](image-4.png)
 
-![alt text](image-5.png)
+
 
 ## Aspect Ratio (Relación de aspecto)
 El **aspect ratio** es la proporción entre el ancho y el alto de una imagen o pantalla.
@@ -228,12 +237,6 @@ Se expresa como una relación:
 👉 No indica calidad ni cantidad de píxeles, solo la forma de la imagen
 
 ![alt text](image-2.png)
-
-
-
-
-
-
 
 
 
@@ -339,7 +342,7 @@ Además los conectores DVI-I y DVI-D tienen dos velocidades de datos distintas, 
 
 ![](assets/img/Unidad07/u760.png)
 
-# DisplayPort
+
 
 
 ### Adaptadores de video
