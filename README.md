@@ -1,4 +1,4 @@
-#  Montaje y mantenimiento de sistemas y componentes informáticos
+Montaje y Mantenimiento de Sistemas y Componentes Informáticos
 
 Sitio web para el módulo  Montaje y Mantenimiento de Sistemas y Componentes Informáticos de 1ºFPB de Informática de Oficina
 
