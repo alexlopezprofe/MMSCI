@@ -12,7 +12,7 @@ Sitio web para el módulo  Montaje y Mantenimiento de Sistemas y Componentes Inf
 
 [Unidad 5. Memorias RAM y dispositivos de almacenamiento](unidad05.md) 
 
-[Unidad 6. Dispositivos de almacenamiento](unidad06.md)
+[Unidad 6. Tarjetas de expansión y periféricos](unidad06.md)
 
 [Unidad 7. Tarjetas gráficas y otras tarjetas](unidad07.md)
 
