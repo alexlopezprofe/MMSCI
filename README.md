@@ -1,6 +1,6 @@
 #  Montaje y mantenimiento de sistemas y componentes informáticos
 
-Sitio web para el módulo  Montaje y mantenimiento de sistemas y componentes informáticos de 2ºFPB de Informática de Oficina
+Sitio web para el módulo  Montaje y Mantenimiento de Sistemas y Componentes Informáticos de 1ºFPB de Informática de Oficina
 
 [Unidad 2. ](unidad02.md)
 
