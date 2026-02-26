@@ -2,7 +2,9 @@
 
 Sitio web para el módulo  Montaje y Mantenimiento de Sistemas y Componentes Informáticos de 1ºFPB de Informática de Oficina
 
-[Unidad 2. ](unidad02.md)
+[Unidad 1. Electrónica básica y representación de la información.](unidad01.md)
+
+[Unidad 2. Unidades funcionales de un ordenador](unidad02.md)
 
 [Unidad 3. Cajas, fuentes, y placas](unidad03.md)
 
