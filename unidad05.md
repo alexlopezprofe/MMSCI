@@ -1,5 +1,8 @@
 # UNIDAD 5. Memorias RAM y dispositivos de almacenamiento
 
+***
+
+# Memorias RAM
 # Definición de memoria RAM
 
 La RAM o memoria de acceso aleatorio (en inglés: Random Access Memory), es la memoria principal de un equipo microinformático y se encarga de almacenar de manera _temporal_ tanto las instrucciones como los datos que ejecuta el microprocesador.
@@ -1056,6 +1059,7 @@ _[https://www.ticarte.com/contenido/especificaciones-tecnicas-de-la-memoria-ram]
 https://gamersnexus.net/guides/1497-ssd-architecture-1-what-is-tlc-nand-mlc-anatomy
 
 https://www.profesionalreview.com/2023/01/22/u-2-vs-u-3/
+
 
 
 
