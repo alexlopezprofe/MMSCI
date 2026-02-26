@@ -189,19 +189,34 @@ Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir
 
 ### Píxel, resolución y aspect ratio
 
-* **Pixel**.(Acrónimo del inglés **pic**ture **el**ement) es la unidad más pequeña que compone una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
+* ## Pixel
+
+Acrónimo del inglés **pic**ture **el**ement, es la unidad más pequeña que compone una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
 - Cada pixel tiene un color.
 - Miles o millones de píxeles juntos forman una imagen completa.
 
-* **Resolución**. Es la cantidad total de píxeles que componen una imagen o pantalla.  
+![Pixel](image-3.png)
+
+
+
+## Resolución.
+Es la cantidad total de píxeles que componen una imagen o pantalla.  
 Se expresa como **ancho × alto**.
+
+![](assets/img/Unidad07/u733.png)
+
+![](assets/img/Unidad07/u734.png)
 
 **Ejemplo:**
 - **1920 × 1080** (Full HD) significa que la imagen tiene 1,920 píxeles de ancho y 1,080 de alto.
 
 👉 Cuantos más píxeles tenga una imagen, mayor será el nivel de detalle.
 
- Aspect Ratio (Relación de aspecto)
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+## Aspect Ratio (Relación de aspecto)
 El **aspect ratio** es la proporción entre el ancho y el alto de una imagen o pantalla.
 
 Se expresa como una relación:
@@ -212,11 +227,14 @@ Se expresa como una relación:
 
 👉 No indica calidad ni cantidad de píxeles, solo la forma de la imagen
 
+![alt text](image-2.png)
 
 
-![](assets/img/Unidad07/u733.png)
 
-![](assets/img/Unidad07/u734.png)
+
+
+
+
 
 
 
