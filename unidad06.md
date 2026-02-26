@@ -32,7 +32,7 @@ Así como las CPU, están diseñados con pocos núcleos pero altas frecuencias d
 ![](assets/img/Unidad07/u73.png)
 
 
-#### Características GPU
+### Características GPU
 
 **Núcleos**. Cada uno de ellos contribuye al rendimiento en conjunto de la tarjeta gráfica. Cada fabricante utiliza diferentes arquitecturas, y no es un buen dato para comparar modelos de fabricantes distintos.
 
@@ -46,53 +46,6 @@ Así como las CPU, están diseñados con pocos núcleos pero altas frecuencias d
 **Frecuencia de Boost**. Aumento por tiempo limitado de la frecuencia base para acelerar el renderizado de la escena. Lo que se traduce en un aumento de la tasa de fotogramas y/o de la calidad de imagen.
 
 
-
-# Representación de imágenes
-
-## Imagen vectorial
-
-Una imagen vectorial es un objeto definido como un punto central en alguna parte del plano, con un radio de un tamaño concreto, una línea que lo envuelve con un grosor determinado y un color de relleno, rojo en este caso. Las imágenes vectoriales se describen mediante líneas, formas y otros componentes gráficos de imagen almacenados en un formato que incorpora fórmulas geométricas para interpretar los elementos de la imagen.
-
-## Mapa de bits o imagen rasterizada
-
-Un mapa de bits o imagen resterizada es un objeto definido como una serie de píxeles de la pantalla. Consiste en definir el color de cada pixel. Se describen mediante un conjunto o mapa de bits dentro de una cuadrícula rectangular de píxeles o puntos.
-
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/adbdc737-e671-4b77-ab55-d5fa911ed847)
-
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/b2585586-91f0-451c-890d-a263d1a8d637)
-
-![image](https://github.com/alexlopezprofe/MyM/assets/148449360/9590e954-00f3-4b96-ac91-f73e1123eb45)
-
-
-## Rasterización
-Los objetos 3D se guardan en la memoria de forma vectorial, pero para ser representados en un medio 2D, como una pantalla o un papel, se deben convertir a un mapa de bits, a este proceso se le llama rasterización.
-La  rasterización o rasterizar, consiste en pasar un objeto vectorial a un conjunto de bits. El proceso contrario sería **vectorizar**.
-
-El componente encargado del rasterizado son los **ROPs o Render/Raster Output Units**
-
-![](assets/img/Unidad07/u710.png)
-
-## TMUs o Texture Mapping Unit
-
-Es una unidad fija que se encarga del llamado mapeo de texturas donde lógicamente se encarga de darle las texturas a las formas y píxeles ya trabajados para finalmente rotar o redimensionar estas para hacerlas más reales. Básicamente le da textura a los píxeles procesados.
-
-![](assets/img/Unidad07/u711.png)
-
-![](assets/img/Unidad07/u712.png)
-
-* **Pixel Fill Rate o tasa de relleno de píxeles**. Número de píxeles que una tarjeta de video puede renderizar en pantalla y escribir en la memoria de video, en un segundo.  La unidad es el Megapíxeles por segundo(MPx/s)
-
-* **Texture Fill Rate o tasa de relleno de texturas**. Número de elementos de mapa de textura (téxeles) que una GPU puede mapear a píxeles en un segundo. La unidad es el Megatéxeles(MT/s) o gigatexels por segundo(GT/s).
-
-Para calcular el Pixel y el Texture Fill Rate se pueden utilizar estas fórmulas:
-
-![](assets/img/Unidad07/u713.png)
-
-![](assets/img/Unidad07/u714.png)
-
-
-> [!NOTE]
-> La GTX 1080 Ti tiene un $Texture Fillrate = 332 GTexel/s$, mientras que tiene un $Pixel Fillrate=130,2 Gpixel/s$.
 
 
 ### VRAM
@@ -228,28 +181,38 @@ Tiene la capacidad de entregar 600W de potencia bajo un voltaje de 12V, es decir
 [Power Consumption: TDP, TBP and TGP for Nvidia and AMD](https://www.igorslab.de/en/performance-tdp-tbp-and-tgp-at-nvidia-and-amd-graphics-cards-demystified-and-calculated-igorslab/)
 
 
-
-#### Flops / FPS
-
-![](assets/img/Unidad07/u730.png)
-
-* **FPS - Frames Per Second - Imágenes por segundo** . Se utiliza ampliamente en el mundo de los videojuegos, ya que a mayor número de FPS, más fluido correrá el juego. Comparando dos tarjetas gráficas diferentes, en el mismo juego y bajo las mismas condiciones, podemos estimar cuál de las dos da más rendimiento simplemente mirando la cantidad de FPS que ofrecen de media.
-
-![](assets/img/Unidad07/u729.png)
-
-* **FLOPS -Floating (point) Operations Per Second - Operaciones en punto flotante por segundo**. Se trata de una tasa de velocidad de las tarjetas gráficas. Se suele medir en Gflops o TFlops.
-
 #### Ejemplo especificaciones tarjeta
 
 ![](assets/img/Unidad07/u731.png)
 
 ## Conceptos de imágenes y video digitales
 
-### Resolución, aspect ratio y pixel
+### Píxel, resolución y aspect ratio
 
-* La Resolución. Es el número de píxeles que puede ser mostrado en la pantalla. Viene dada por el producto del ancho por el alto, medidos ambos en píxeles, con lo que se obtiene una relación, llamada **relación de aspecto(aspect ratio)**. La máxima resolución que puede mostrar una tarjeta gráfica viene directamente determinada por el puerto a través del que lo hagamos.
+* **Pixel**.(Acrónimo del inglés **pic**ture **el**ement) es la unidad más pequeña que compone una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
+- Cada pixel tiene un color.
+- Miles o millones de píxeles juntos forman una imagen completa.
 
-* Un **pixel**, (acrónimo del inglés picture element) es la menor unidad homogénea en color que forma parte de una imagen digital, ya sea esta una fotografía, un fotograma de vídeo o un gráfico.
+* **Resolución**. Es la cantidad total de píxeles que componen una imagen o pantalla.  
+Se expresa como **ancho × alto**.
+
+**Ejemplo:**
+- **1920 × 1080** (Full HD) significa que la imagen tiene 1,920 píxeles de ancho y 1,080 de alto.
+
+👉 Cuantos más píxeles tenga una imagen, mayor será el nivel de detalle.
+
+ Aspect Ratio (Relación de aspecto)
+El **aspect ratio** es la proporción entre el ancho y el alto de una imagen o pantalla.
+
+Se expresa como una relación:
+
+- **16:9** → formato panorámico moderno (TV y YouTube)
+- **4:3** → formato antiguo de televisores
+- **1:1** → formato cuadrado
+
+👉 No indica calidad ni cantidad de píxeles, solo la forma de la imagen
+
+
 
 ![](assets/img/Unidad07/u733.png)
 
@@ -390,7 +353,7 @@ Conexión de varios monitores a un adaptador:
 
 ## Red de área local
 
-Un sistema en red , o una red, es aquel que está formado por dos o más dispositivos conectados entre sí para compartir información, recursos y servicios.
+Un sistema en red, o una red, es aquel que está formado por dos o más dispositivos conectados entre sí para compartir información, recursos y servicios.
 
 Si nos centramos en una red de área local o LAN es una red de datos de alta velocidad y bajo nivel de errores que abarca un área geográfica relativamente pequeña. La penetración en el mercado de las redes LAN es muy alto ya que están 
 
@@ -416,7 +379,7 @@ RJ45→ cable par trenzado
 
 SPF→ fibra óptica
 
-BNC→ cable coaxial
+
 
 ![](assets/img/Unidad07/u779.png)
 
@@ -444,21 +407,7 @@ Un transceptor SFP (small form-factor pluggable transceptor ) o Mini_GBIC permit
 
 ![](assets/img/Unidad07/u788.png)
 
-### Interfaces de red coaxial
 
-Obsoleto
-
-Redes topologia anillo
-
-![](assets/img/Unidad07/u789.png)
-
-![](assets/img/Unidad07/u790.png)
-
-![](assets/img/Unidad07/u791.png)
-
-![](assets/img/Unidad07/u792.png)
-
-![](assets/img/Unidad07/u793.png)
 
 ### Velocidad Ethernet
 
