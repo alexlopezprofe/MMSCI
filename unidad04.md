@@ -45,7 +45,6 @@ En las CPU actuales pueden ser de varios núcleos y  se añaden, con respecto a 
 <img width="450" height="322" alt="image" src="https://github.com/user-attachments/assets/bcd00b53-337d-4240-a939-e162172cee6a" />
 
 
-
 # 3. Características de la CPU
 
 ## 3.1 Núcleos (Cores)
@@ -114,11 +113,12 @@ El TDP no es una medida directa de cuánta potencia consumirá un componente, pe
 * Memoria intermedia entre la memoria principal (RAM) y el procesador de baja capacidad y gran velocidad.
 * La memoria caché es usada por el procesador para reducir el tiempo promedio necesario para acceder a los datos de la memoria principal, es decir es un tipo de memoria a la que el procesador tiene acceso directo, casi instantáneo, y en la que se almacenan los datos e instrucciones que más utiliza para «tenerlos a mano» de manera inmediata.
 * Niveles de memoria caché:
-  * Nivel 1 (L1): Esta memoria caché es extremadamente rápida pero relativamente pequeña y hoy día se encuentra integrada en el CPU (años atrás podía o no estar integrada en el CPU). Todas las instrucciones se buscan primero aquí, si no están presentes entonces se procede al siguiente nivel.
-  * Nivel 2 (L2). más grande que L1 y también está dentro del CPU (años atrás no lo estaba). Si las instrucciones no fueron encontradas en el Nivel L1 entonces se buscan en L2, más lenta que L1.
-  * Nivel 3 (L3): Es un nivel de memoria especializada que ayuda a mejorar el rendimiento de los niveles de caché L1 y L2. Es mucho más lenta que la memoria L1 o L2, pero mucho más rápida que la memoria RAM.
+  * **Nivel 1 (L1)**: Esta memoria caché es extremadamente rápida pero relativamente pequeña y hoy día se encuentra integrada en el CPU (años atrás podía o no estar integrada en el CPU). Todas las instrucciones se buscan primero aquí, si no están presentes entonces se procede al siguiente nivel.
+  * **Nivel 2 (L2)**. más grande que L1 y también está dentro del CPU (años atrás no lo estaba). Si las instrucciones no fueron encontradas en el Nivel L1 entonces se buscan en L2, más lenta que L1.
+  * **Nivel 3 (L3)**: Es un nivel de memoria especializada que ayuda a mejorar el rendimiento de los niveles de caché L1 y L2. Es mucho más lenta que la memoria L1 o L2, pero mucho más rápida que la memoria RAM.
 * En el caso de los procesadores con varios cores, cada uno de ellos tiene su propio caché L1 y  L2, pero, todos comparten el mismo caché L3.
 
+<img width="538" height="340" alt="image" src="https://github.com/user-attachments/assets/8bef3daa-c173-4957-9d7a-3814acbe5e82" />
 
 
 ## 3.6 Die Shot - Die Map
@@ -127,19 +127,17 @@ El TDP no es una medida directa de cuánta potencia consumirá un componente, pe
 
 # 3.7 Conjunto de instrucciones
 
-El conjunto de instrucciones que un procesador soporta definirá qué aplicaciones entiende y por tanto cuales puede llegar a ejecutar.
+El conjunto de instrucciones es el grupo de órdenes básicas que un procesador puede reconocer y ejecutar.
+
+No todos los procesadores tienen el mismo juego (conjunto) de instrucciones. Porque cada familia de procesadores puede estar diseñada con una arquitectura diferente.
+
+El juego de instrucciones depende de esa arquitectura.
 
 **Tipos:**
 
 * x86. Es la mínima necesaria para ser capaz de ejecutar el sistema operativo Windows. En concreto estas instrucciones trabajan con datos de 32 bits. También es conocido como IA-32.
 * x64. Es una extensión de la anterior para permitir trabajar con datos de 64 bits. También conocida por sus variantes AMD64, Intel 64, IA-64.
-* MMX. Las aplicaciones multimedia necesitan instrucciones que sean capaces de procesar muchos datos al mismo tiempo. Por ejemplo puedes sumar 8 números enteros de 8 bits con una sola instrucción.
-* 3d Now. Es la respuesta de AMD a las MMX de Intel. Está más avanzada que la anterior. Su objetivo es acelerar las aplicaciones que trabajan con sonido, video, etc.
-* SSE. Este conjunto y todos los que vienen después, SSE2, SSE3, SSE4, SSE4a vienen a añadir más posibilidades de aceleración a las aplicaciones multimedia. Están basadas en la experiencia dada por los creadores de esas aplicaciones que conocen aquellas instrucciones que más se usan.
-* AVX. Los registros son tan grandes que se trabaja con vectores en vez de con datos individuales. Estamos hablando de 256 bits. La nueva versión AVX2 la implementan los últimos Intel.
-* AES. Este conjunto de instrucciones permite trabajar a tu procesador con aplicaciones criptográficas. Estas son utilizadas para que los datos y tu equipo estén más seguros que nunca.
-* TSX. Creadas por Intel permiten gestionar de forma más eficiente los recursos compartidos entre los distintos procesos que tienes a la vez funcionando en un PC. Están pensadas para sacar el mayor provecho posible al incremento en el número de núcleos que encuentras en el procesador.
-* ARM
+
 
 > **¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?**
 
@@ -177,79 +175,7 @@ El procesador debe mantenerse siempre a una buena temperatura. Esto no solo prol
 ![](assets/img/Unidad04/u429.png)
 
 
-# 4 Buses del sistema 
-
-## 4.1 FSB - Front Side Bus
-
-* Es el bus que usaron los micros Intel desde finales de los años 90 hasta la arquitectura Core.
-* Se encarga de comunicar el procesador con el North Bridge.
-* Se trata de un bus paralelo, bidireccional, compartido.
-* La velocidad del FSB se mide en MHz.
-
-![](assets/img/Unidad04/u415.png)
-
-## 4.2 HT - HyperTransport
-
-* Tecnología desarrollada por AMD® en 2001 en sustitución del FSB clásico.
-* Comunica procesador y chipset sin necesidad del uso del NorthBridge ó conexión entre procesadores en sistemas multiprocesador
-* Controlador de memoria integrado (IMC)
-* La velocidad se mide en GigaTransferences/second (GT/s)
-
-![](assets/img/Unidad04/u416.png)
-
-# 4.3 QPI - QuickPath Interconnect
-
-* Respuesta de Intel a AMD frente a HyperTransport.
-* Controlador de memoria integrado en la CPU >**IMC**(Integrated Memory Controller)
-* Dos buses separados entre la CPU y el Chipset lo que permite leer y escribir datos al mismo tiempo
-* La velocidad se mide en GigaTransferences/second (GT/s)
-
-![](assets/img/Unidad04/u417.png)
-
-![](assets/img/Unidad04/u418.png)
-
-**Comparación FSB vs QPI**
-
-![](assets/img/Unidad04/u419.png)
-
-## 4.4 DMI - Direct Media Interface
-
-### DMI v1
-
-* Aparece en 2004
-* Originariamente para conectar en northbridge con el southbridge.
-* 1GB/s
-* 2 GT/s
-
-![](assets/img/Unidad04/u420.png)
-
-![](assets/img/Unidad04/u421.png)
-
-### DMI v2
-
-* 2011
-* Conecta procesador con PCH
-* 2 GB/s with a ×4 link
-
-![](assets/img/Unidad04/u422.png)
-
-### DMI v3
-
-2015
-
-Conecta procesador con PCH
-
-3.96 GB/s with a ×4 link
-
-![](assets/img/Unidad04/u423.png)
-
-**DMI v4**
-
-* 2021
-* Intel Gen 12th
-* 3.96 GB/s with a ×8 link
-
-# 5. Refrigeración. Disipación de calor en las CPU
+# Refrigeración. Disipación de calor en las CPU
 
 El objetivo primordial del sistema de refrigeración instalado en un ordenador es conseguir que los componentes, como la CPU o el procesador gráfico, trabajen en todo momento dentro de su rango admisible de temperatura.
 
@@ -259,7 +185,7 @@ El objetivo primordial del sistema de refrigeración instalado en un ordenador e
 
 Actualmente los métodos de refrigeración más habituales son la refrigeración por aire y refrigeración líquida.
 
-## 5.1 Elementos comunes el los sistemas de refigeración
+## Elementos comunes el los sistemas de refigeración
 
 ### IHS.
 
@@ -291,7 +217,7 @@ La conductividad térmica de una pasta de cierta calidad es de 8,5 W/mK, la cond
 
 [https://www.youtube.com/watch?v=j5yXDIno51I](https://www.youtube.com/watch?v=j5yXDIno51I)
 
-## 5.2 Refrigeración por aire
+## Refrigeración por aire
 
 ### Bloque frio 
 
@@ -343,7 +269,7 @@ Tipos de refrigeración por aire:
 
 ![](assets/img/Unidad04/u444.png)
 
-## 5.2 Refrigeración líquida
+## Refrigeración líquida
 
 La refrigeración líquida o watercooling es una técnica de enfriamiento que utiliza líquido refrigerante como medio refrigerante.
 
@@ -407,13 +333,13 @@ Va adosado sobre la superficie del radiador con el propósito de desplazar el ca
 
 Falta video ![](assets/img/Unidad04/u454.jpg)
 
-# 6. Procesadores Intel
+# Procesadores Intel
 
-## 6.1 Generaciones Intel
+## Generaciones Intel
 
 [https://en.wikipedia.org/wiki/IntelCore](https://en.wikipedia.org/wiki/IntelCore)
 
-## 6.2 Identificación procesadores Intel
+## Identificación procesadores Intel
 
 ![](assets/img/Unidad04/u455.png)
 
@@ -439,9 +365,9 @@ Falta video ![](assets/img/Unidad04/u454.jpg)
   * ** U (Portátil):**  Consumo ultra bajo, no requiere ventiladores
   * **M:**  viene de «mobile» (portátil, no móvil en este caso) y fue muy utilizado en los primeros procesadores para portátiles de la marca, aunque ahora mismo ya han dejado de utilizarlo salvo en algunos procesadores Xeon.
 
-# 7. Procesadores AMD (x86-64)
+# Procesadores AMD (x86-64)
 
-## 7.1 Generaciones AMD
+## Generaciones AMD
 
 **K8 core architecture**
 
@@ -666,9 +592,9 @@ Milan  [Epyc](https://en.wikipedia.org/wiki/Epyc)  (server)
 
 ![](assets/img/Unidad04/u465.png)
 
-# 9. Gráficos del procesador -
+# Gráficos del procesador -
 
-## 9.1 Intel
+## Intel
 
 ![](assets/img/Unidad04/u466.png)
 
@@ -684,7 +610,7 @@ Gen 11:  [Intel® Iris® Xe Graphics](https://www.intel.es/content/www/es/es/arc
 
 Gen 10:  [UHD Intel® 630](https://www.intel.es/content/www/es/es/support/products/98909/graphics/graphics-for-7th-generation-intel-processors/intel-hd-graphics-630.html)
 
-## 9.2 APU - AMD
+## APU - AMD
 
 El término APU (Accelerated Processing Unit) hace referencia a una clase de procesadores de AMD, en los que se incorpora núcleos gráficos a los núcleos de computación.
 
@@ -692,7 +618,7 @@ El término APU (Accelerated Processing Unit) hace referencia a una clase de pro
 
 ![](assets/img/Unidad04/u468.png)
 
-# 10 Identificar CPU por línea de comandos
+# Identificar CPU por línea de comandos
 
 Windows: CMD → wmic cpu get caption, deviceid, name, numberofcores, maxclockspeed, status
 
@@ -702,7 +628,7 @@ Windows: CMD → wmic cpu get caption, deviceid, name, numberofcores, maxclocksp
 
 Linux: Terminal→ $ cat /proc/cpuinfo
 
-# 11. Compatibilidad placas base con procesadores
+# Compatibilidad placas base con procesadores
 
 [https://compatibleproducts.intel.com/ProductDetails?activeModule=Desktop%20and%20Workstation%20Processors&Lang=es-xl](https://compatibleproducts.intel.com/ProductDetails?activeModule=Desktop%20and%20Workstation%20Processors&Lang=es-xl)
 
@@ -754,6 +680,7 @@ Libro Montaje y Mantenimiento de Equipos Editorial: McGraw Hill
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
+
 
 
 
