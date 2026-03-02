@@ -48,7 +48,7 @@ En las CPU actuales pueden ser de varios núcleos y  se añaden, con respecto a 
 
 # 3. Características de la CPU
 
-## 3.1 Núcleos
+## 3.1 Núcleos (Cores)
 
 Los procesadores antiguos eran  **single core** , en los microprocesadores modernos suelen existir más de un núcleo ( **core** ) de procesamiento. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador.
 
@@ -86,7 +86,8 @@ Los procesadores actuales están compuestos por millones de transistores.
 
 ![](assets/img/Unidad04/u49.png)
 
-Falta video ![](assets/img/Unidad04/u410.jpg)
+
+[![Ley de Moore](assets/img/Unidad04/u410.jpg)](https://www.youtube.com/watch?v=7uvUiq_jTLM )
 
 ### Litografía
 
@@ -753,5 +754,6 @@ Libro Montaje y Mantenimiento de Equipos Editorial: McGraw Hill
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
+
 
 
