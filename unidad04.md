@@ -42,6 +42,10 @@ En las CPU actuales pueden ser de varios núcleos y  se añaden, con respecto a 
 
 ![](assets/img/Unidad04/u45.png)
 
+<img width="450" height="322" alt="image" src="https://github.com/user-attachments/assets/bcd00b53-337d-4240-a939-e162172cee6a" />
+
+
+
 # 3. Características de la CPU
 
 ## 3.1 Núcleos
@@ -749,4 +753,5 @@ Libro Montaje y Mantenimiento de Equipos Editorial: McGraw Hill
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
+
 
