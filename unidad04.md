@@ -1,25 +1,8 @@
 # Unidad 4. PROCESADORES
 
 
-1. Definición
 
-2. Diagrama de bloques
-
-3. Características
-
-4. Disipación de calor CPU
-
-5. Generaciones recientes de Intel
-
-6. Generaciones recientes de AMD
-
-7. Procesador Apple M1
-
-8. Gráficas en procesadores
-
-9. Identificar CPU por línea de comandos
-
-# 1. Definición de procesador
+# Definición de procesador
 
 Es el componente principal del ordenador, dirige y controla el resto de componentes, decodifica y ejecuta las instrucciones de los programas cargados en la RAM. Es un circuito integrado o chip, formado por millones de [ transistores](https://en.wikipedia.org/wiki/Transistor) .
 
@@ -33,7 +16,7 @@ No solo se encuentra en ordenadores, también se encuentra en teléfonos móvile
 
 ![](assets/img/Unidad04/u44.png)
 
-# 2. Diagrama de bloques CPU
+# Diagrama de bloques CPU
 
 En las CPU actuales pueden ser de varios núcleos y  se añaden, con respecto a la arquitectura Von Neumann, los siguientes elementos:
 
@@ -45,9 +28,9 @@ En las CPU actuales pueden ser de varios núcleos y  se añaden, con respecto a 
 <img width="450" height="322" alt="image" src="https://github.com/user-attachments/assets/bcd00b53-337d-4240-a939-e162172cee6a" />
 
 
-# 3. Características de la CPU
+# Características de la CPU
 
-## 3.1 Núcleos (Cores)
+## Núcleos (Cores)
 
 Los procesadores antiguos eran  **single core** , en los microprocesadores modernos suelen existir más de un núcleo ( **core** ) de procesamiento. Cada núcleo es un pequeño microprocesador independiente dentro del mismo microprocesador.
 
@@ -63,7 +46,7 @@ Gracias a los núcleos, el microprocesador será capaz de realizar a la vez una 
 
 ![](assets/img/Unidad04/u46.png)
 
-## 3.2 Velocidad de reloj
+## Velocidad de reloj
 
 ![](assets/img/Unidad04/u47.png)
 
@@ -75,7 +58,7 @@ Por ejemplo una CPU con una velocidad de reloj de 3,2 GHz ejecuta 3.200 millones
 
 > **¿Es más rápido en ejecutar una instrucción un procesador de 10GHz que uno de 5 GHz?**
 
-## 3.3 Transistores.
+## Transistores.
 
 Los procesadores actuales están compuestos por millones de transistores.
 
@@ -100,7 +83,7 @@ Esto significa que en comparación, en el proceso de 7 nm se puede meter literal
 
 [![](https://img.youtube.com/vi/TtuUANbaEFI/hqdefault.jpg)](https://www.youtube.com/watch?v=TtuUANbaEFI)
 
-## 3.4 Thermal Design Power. TDP
+## Thermal Design Power. TDP
 
 La **Potencia de Diseño Térmico  o TDP** representa la potencia media, en vatios, que el procesador disipa cuando funciona a Frecuencia Base con todos los núcleos activos bajo una carga de trabajo de alta complejidad.
 
@@ -108,7 +91,7 @@ Un procesador con un TDP de 95W, se espera que genere un valor de 95W de calor c
 
 El TDP no es una medida directa de cuánta potencia consumirá un componente, pero si que es una buena aproximación.
 
-## 3.5 Memoria caché
+## Memoria caché
 
 * Memoria intermedia entre la memoria principal (RAM) y el procesador de baja capacidad y gran velocidad.
 * La memoria caché es usada por el procesador para reducir el tiempo promedio necesario para acceder a los datos de la memoria principal, es decir es un tipo de memoria a la que el procesador tiene acceso directo, casi instantáneo, y en la que se almacenan los datos e instrucciones que más utiliza para «tenerlos a mano» de manera inmediata.
@@ -121,11 +104,11 @@ El TDP no es una medida directa de cuánta potencia consumirá un componente, pe
 <img width="538" height="340" alt="image" src="https://github.com/user-attachments/assets/8bef3daa-c173-4957-9d7a-3814acbe5e82" />
 
 
-## 3.6 Die Shot - Die Map
+## Die Shot - Die Map
 
 [https://en.wikichip.org/wiki/WikiChip](https://en.wikichip.org/wiki/WikiChip)
 
-# 3.7 Conjunto de instrucciones
+# Conjunto de instrucciones
 
 El conjunto de instrucciones es el grupo de órdenes básicas que un procesador puede reconocer y ejecutar.
 
@@ -143,7 +126,7 @@ El juego de instrucciones depende de esa arquitectura.
 
 Una CPU de hace cinco años con una velocidad de reloj más alta puede ser superada por una nueva CPU con una velocidad de reloj más baja, ya que la nueva arquitectura maneja las instrucciones con mayor eficacia. Un procesador Intel® serie X puede superar a un procesador serie K con una velocidad de reloj más alta, ya que divide las tareas entre más núcleos y posee una caché de CPU mayor. Pero dentro de la misma generación de CPU, un procesador con una velocidad de reloj más alta por lo general superará en muchas aplicaciones a un procesador con una velocidad de reloj más baja. Por eso es importante comparar procesadores de la misma marca y generación.
 
-## 3.8 Arquitectura de 32 y 64 bits
+## Arquitectura de 32 y 64 bits
 
 Cuando hablamos de 32 y 64 bits no solo se refieren al tipo CPU sino también al sistema operativo, los drivers y el software. Todos ellos tiene que utilizar una misma arquitectura. De esta manera todos los componentes hablan "el mismo idioma", y pueden funcionar correctamente los unos con los otros.
 
@@ -158,7 +141,7 @@ Las arquitecturas de 64 bits son capaces de manejar mucha más memoria RAM que l
 
 **Buscar limitación de memoria en Windows 32 y 64 bits**
 
-## 3.9. Temperatura
+## Temperatura
 
 El procesador debe mantenerse siempre a una buena temperatura. Esto no solo prolongará su vida útil, sino que hará que el equipo tenga un mejor rendimiento y funcione de una manera más silenciosa.
 
@@ -680,6 +663,7 @@ Libro Montaje y Mantenimiento de Equipos Editorial: McGraw Hill
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
+
 
 
 
