@@ -1,4 +1,119 @@
-# Representación de la información
+# Representación de la información y electrónica básica
+
+
+# Unidades del Sistema Internacional (SI)
+
+## ¿Qué es el Sistema Internacional?
+
+El **Sistema Internacional de Unidades (SI)** es el sistema de medidas que se utiliza en casi todo el mundo para expresar magnitudes físicas como longitud, masa o tiempo.
+
+Permite que científicos, ingenieros y personas de diferentes países utilicen **las mismas unidades**.
+
+---
+
+## Magnitudes Fundamentales
+
+Las **magnitudes fundamentales** son aquellas que no se definen a partir de otras. Son 7.
+
+| Magnitud | Unidad | Símbolo |
+|--------|--------|--------|
+| Longitud | metro | m |
+| Masa | kilogramo | kg |
+| Tiempo | segundo | s |
+| Temperatura | kelvin | K |
+| Corriente eléctrica | amperio | A |
+| Cantidad de sustancia | mol | mol |
+| Intensidad luminosa | candela | cd |
+
+### Ejemplos
+
+- La mesa mide **2 m** de largo.
+- Una mochila pesa **3 kg**.
+- Una carrera dura **10 s**.
+
+---
+
+## 3. Magnitudes Derivadas
+
+Las **magnitudes derivadas** se obtienen combinando magnitudes fundamentales.
+
+| Magnitud | Unidad | Símbolo | Fórmula |
+|--------|--------|--------|--------|
+| Velocidad | metro por segundo | m/s | distancia / tiempo |
+| Aceleración | metro por segundo² | m/s² | velocidad / tiempo |
+| Fuerza | newton | N | kg·m/s² |
+| Energía | julio | J | N·m |
+| Potencia | vatio | W | J/s |
+| Tensión eléctrica | voltio | V | W/A |
+| Corriente eléctrica | amperio | A | C/s |
+| Resistencia eléctrica | ohmio | Ω | V/A |
+| Capacitancia | faradio | F | C/V |
+| Inductancia | henrio | H | Wb/A |
+| Densidad de potencia | W/m² | W/m² | W / m² |
+| Presión | pascal | Pa | N/m² |
+| Área | metro cuadrado | m² | m · m |
+| Volumen | metro cúbico | m³ | m · m · m |
+| Velocidad | metro por segundo | m/s | m / s |
+| Aceleración | metro por segundo cuadrado | m/s² | m / s² |
+| Fuerza | newton | N | kg · m / s² |
+| Presión | pascal | Pa | N / m² |
+| Trabajo / Energía | julio | J | N · m |
+| Potencia | vatio | W | J / s |
+| Frecuencia | hercio | Hz | 1 / s |
+| Carga eléctrica | culombio | C | A · s |
+| Diferencia de potencial (voltaje) | voltio | V | W / A |
+| Resistencia eléctrica | ohmio | Ω | V / A |
+| Capacidad eléctrica | faradio | F | C / V |
+| Flujo magnético | weber | Wb | V · s |
+| Inducción magnética | tesla | T | Wb / m² |
+| Inductancia | henrio | H | Wb / A |
+| Densidad | kilogramo por metro cúbico | kg/m³ | kg / m³ |
+| Frecuencia | hercio | Hz | 1/s |
+| Ancho de banda | hercio | Hz | 1/s |
+| Velocidad de transmisión | bit por segundo | b/s | bit / s |
+| Tasa de datos | bit por segundo | b/s | bit / s |
+
+### Ejemplos
+
+- Un coche circula a **20 m/s**.
+- La gravedad tiene una aceleración de **9.8 m/s²**.
+- Un motor puede tener una potencia de **100 W**.
+
+# Múltiplos y Submúltiplos del Sistema Internacional (SI)
+
+## 1. ¿Qué son los múltiplos y submúltiplos?
+
+Los **múltiplos y submúltiplos** del Sistema Internacional se utilizan para expresar cantidades **muy grandes o muy pequeñas** de una forma más cómoda. Se forman añadiendo **prefijos** delante de la unidad.
+
+## Prefijos del Sistema Internacional
+
+## Múltiplos (unidades grandes)
+
+| Prefijo | Símbolo | Factor | Ejemplo |
+|--------|--------|--------|--------|
+| deca | da | 10¹ | 1 dam = 10 m |
+| hecto | h | 10² | 1 hm = 100 m |
+| kilo | k | 10³ | 1 km = 1000 m |
+| mega | M | 10⁶ | 1 MW = 1 000 000 W |
+| giga | G | 10⁹ | 1 GHz = 1 000 000 000 Hz |
+| tera | T | 10¹² | 1 TB = 1 000 000 000 000 B |
+
+
+## Submúltiplos (unidades pequeñas)
+
+| Prefijo | Símbolo | Factor | Ejemplo |
+|--------|--------|--------|--------|
+| deci | d | 10⁻¹ | 1 dm = 0.1 m |
+| centi | c | 10⁻² | 1 cm = 0.01 m |
+| mili | m | 10⁻³ | 1 mm = 0.001 m |
+| micro | µ | 10⁻⁶ | 1 µm = 0.000001 m |
+| nano | n | 10⁻⁹ | 1 ns = 0.000000001 s |
+| pico | p | 10⁻¹² | 1 ps = 0.000000000001 s |
+
+
+
+
+
 
 La transmisión de información entre el ser humano y la computadora puede hacerse de muchas formas:​
 
