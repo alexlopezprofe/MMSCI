@@ -110,6 +110,7 @@ Los **múltiplos y submúltiplos** del Sistema Internacional se utilizan para ex
 | nano | n | 10⁻⁹ | 1 ns = 0.000000001 s |
 | pico | p | 10⁻¹² | 1 ps = 0.000000000001 s |
 
+<img width="300" height="450" alt="image" src="https://github.com/user-attachments/assets/6574a716-4fac-481c-8a58-fe69e5e77a33" />
 
 
 
