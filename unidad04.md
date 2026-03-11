@@ -570,29 +570,58 @@ Milan  [Epyc](https://en.wikipedia.org/wiki/Epyc)  (server)
 * Instrucciones: AArch64; ARMv8-A
 * GPU integrada
 
-![](assets/img/Unidad04/u465.png)
+<img width="1024" height="576" alt="image" src="https://github.com/user-attachments/assets/e2ba069a-058a-40e9-8e42-272ef65d728a" />
+
 
 # Gráficos del procesador -
+
+# Gráficos integrados en el procesador
+
+Los **gráficos integrados** en el procesador (también conocidos como **iGPU, *integrated graphics processing unit***), son una solución gráfica incorporada directamente dentro del mismo chip de la CPU. A diferencia de una tarjeta gráfica dedicada, que es un componente independiente con su propia memoria y sistema de alimentación, los gráficos integrados comparten recursos con el procesador, especialmente la **memoria RAM del sistema**.
+
+Este tipo de tecnología permite que un ordenador pueda mostrar imágenes, reproducir video o ejecutar aplicaciones gráficas sin necesidad de instalar una tarjeta gráfica adicional. Por esta razón, los gráficos integrados se encuentran comúnmente en **portátiles, mini-PCs y ordenadores de oficina**, donde el consumo energético y el costo son factores importantes.
+
+## Ventajas
+
+Uno de los beneficios principales de los gráficos integrados es su **eficiencia energética**. Al formar parte del mismo chip que el procesador, consumen menos energía y generan menos calor que una GPU dedicada. Esto resulta ideal para dispositivos compactos o equipos diseñados para tareas cotidianas como:
+
+- Navegación web
+- Reproducción multimedia
+- Trabajo de oficina
+- Estudios
+
+## Limitaciones
+
+Sin embargo, su rendimiento suele ser más limitado en comparación con las tarjetas gráficas dedicadas, especialmente en:
+
+- Videojuegos exigentes
+- Edición de video profesional
+- Modelado 3D avanzado
+
+<img width="515" height="214" alt="image" src="https://github.com/user-attachments/assets/8f5f9a0c-909e-4fe2-84bf-dcaf25fee09b" />
+
+
+<img width="1000" height="562" alt="image" src="https://github.com/user-attachments/assets/aae87c82-a1ad-4cea-8473-6fe07bcc1f9a" />
+
+
+
 
 ## Intel
 
 ![](assets/img/Unidad04/u466.png)
 
-Gráficos del procesador hace referencia a gráficos que están físicamente en el encapsulado del procesador o integrados en la pieza del procesador.
 
-Las tarjetas gráficas integradas en placas base ya no se incorporan en estas desde hace varios años.
-
-Se requiere un puerto de video en la motherboard para funcionar.
-
-Gen 12 y 13:  [Intel® UHD Graphics 770](https://ark.intel.com/content/www/es/es/ark/products/graphics/219449/intel-uhd-graphics-770.html)
+Gen 12, 13 y 14,   [Intel® UHD Graphics 770](https://ark.intel.com/content/www/es/es/ark/products/graphics/219449/intel-uhd-graphics-770.html)
 
 Gen 11:  [Intel® Iris® Xe Graphics](https://www.intel.es/content/www/es/es/architecture-and-technology/visual-technology/graphics-overview.html)
 
 Gen 10:  [UHD Intel® 630](https://www.intel.es/content/www/es/es/support/products/98909/graphics/graphics-for-7th-generation-intel-processors/intel-hd-graphics-630.html)
 
-## APU - AMD
+## AMD
 
 El término APU (Accelerated Processing Unit) hace referencia a una clase de procesadores de AMD, en los que se incorpora núcleos gráficos a los núcleos de computación.
+
+Actualmente AMD con la llegada de AMD Ryzen, AMD empezó a nombrarlos más como Ryzen con gráficos Radeon.
 
 ![](assets/img/Unidad04/u467.png)
 
@@ -660,6 +689,7 @@ Libro Montaje y Mantenimiento de Equipos Editorial: McGraw Hill
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
+
 
 
 
