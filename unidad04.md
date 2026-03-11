@@ -554,20 +554,17 @@ Milan  [Epyc](https://en.wikipedia.org/wiki/Epyc)  (server)
 
 # 8. Procesador Apple
 
-
-| Modelo | Lanzamiento | Proceso | Frecuencia Max (GHz) | Núcleos<br />CPU | Nucleos<br />GPU | TDP(W) | Socket |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| M2 | Q2’22 | 5 nm | 3,49 | 8 (4+4) | 10 | 22 |  |
-| M1 | Q4’20 | 5 nm | 3.2 | 8 (4+4) | 7 u 8 | 15 |  |
-| M1 PRO | Q3’21 | 5 nm | 3.2 | 10 (8+2) | 16 | 60 |  |
-| M1  MAX | Q3’21 | 5 nm | 3.2 | 10 (8+2) | 32 | 60 |  |
-| M2 | Q2’22 | 5 nm | 3.5 | 4 (4+4) | 10 | 20 |  |
-| M2 max | Q1’23 | 5 nm | 3.7 | 12 (10+4) | 38 | 40 |  |
+| Chip | Año de lanzamiento | Proceso de fabricación | Transistores | CPU (núcleos) | GPU (núcleos máx.) | Neural Engine | Ancho de banda memoria | Memoria unificada máx. | Características destacadas |
+|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+| M1 | 2020 | 5 nm | 16 mil millones | 8 (4P + 4E) | 7–8 | 16 núcleos | 68 GB/s | 16 GB | Primer Apple Silicon para Mac, gran eficiencia energética |
+| M2 | 2022 | 5 nm (mejorado) | 20 mil millones | 8 (4P + 4E) | hasta 10 | 16 núcleos | 100 GB/s | 24 GB | Mejor GPU, soporte ProRes, mayor memoria |
+| M3 | 2023 | 3 nm (1ª gen) | 25 mil millones | 8 (4P + 4E / 6P+2E según config.) | hasta 10 | 16 núcleos | 100 GB/s | 24 GB | Ray tracing por hardware, Dynamic Caching |
+| M4 | 2024 | 3 nm (2ª gen) | 28 mil millones | 9–10 (≈6P + 4E) | hasta 10+ | 16 núcleos (~38 TOPS) | 120 GB/s | ~36 GB | Fuerte enfoque en IA y ML, mejoras CPU |
+| M5 | 2025 | 3 nm mejorado (N3P) | ~30+ mil millones* | 10 (aprox.) | hasta 10 | 16 núcleos + aceleradores IA en GPU | ~153 GB/s | ≥36 GB* | Gran mejora en IA y gráficos (hasta ~45% GPU) |
 
 
-![](assets/img/Unidad04/u463.png)
+<img width="1500" height="844" alt="image" src="https://github.com/user-attachments/assets/9cba4d58-7028-420e-b251-2f9c66a69e4d" />
 
-![](assets/img/Unidad04/u464.png)
 
 * Microarquitectura:"Firestorm" and"Icestorm"
 * Instrucciones: AArch64; ARMv8-A
@@ -663,6 +660,7 @@ Libro Montaje y Mantenimiento de Equipos Editorial: McGraw Hill
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
 |  |  |  |  |  |  |  |  |
+
 
 
 
