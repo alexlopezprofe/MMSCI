@@ -1,5 +1,11 @@
 # UNIDAD 5. Memorias RAM y dispositivos de almacenamiento
 
+1. Memorias RAM
+2. Dispositivos de almacenamiento
+3. Tarjetas gráficas
+4. Adaptadores de red
+5. Periféricos
+
 # Memorias RAM
 # Definición de memoria RAM
 
