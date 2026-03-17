@@ -1,5 +1,4 @@
-# UNIDAD 5. Memorias RAM y dispositivos de almacenamiento
-
+# UNIDAD 5. Componentes internos del ordenador y periféricos
 1. Memorias RAM
 2. Dispositivos de almacenamiento
 3. Tarjetas gráficas
