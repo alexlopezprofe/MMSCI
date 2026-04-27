@@ -3,7 +3,6 @@
 2. Dispositivos de almacenamiento
 3. Tarjetas gráficas
 4. Adaptadores de red
-5. Periféricos
 
 # Memorias RAM
 # Definición de memoria RAM
